@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Aproximaciones geometricas a $\pi $}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Metodo de Kochaski}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Metodo de Mascheroni}{6}{0}{1}
+\beamer@sectionintoc {2}{Historia del calculo del valor $\pi $}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Renacimiento europeo}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Matematica islamica}{9}{0}{2}
+\beamer@sectionintoc {3}{Bibliograf\IeC {\'\i }a}{10}{0}{3}

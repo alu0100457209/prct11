@@ -1,0 +1,101 @@
+\documentclass{beamer}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[\bf{El número $\pi$}]{El número $\pi$}
+\author[Rayco Hernández Delgado]{Rayco Hernández Delgado}
+\date[\today]{\today}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usetheme{Madrid}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure, fg=white, bg=MiVioleta}
+\setbeamercolor*{palette secundary}{use=structure, fg=white, bg=MiAzul}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white, bg=MiGris}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Índice}
+\tableofcontents[pausesections]
+\end{frame}
+
+
+\section {Aproximaciones geometricas a $\pi$}
+\begin{frame}
+\frametitle{Aproximaciones geometricas a $\pi$}
+Es posible obtener una aproximación al valor de $\pi$ de forma geométrica. De hecho, ya los griegos intentaron obtener sin éxito una solución exacta al problema del valor de $\pi$ mediante el empleo de regla y compás. El problema griego conocido como cuadratura del círculo o, lo que es lo mismo, obtener un cuadrado de área igual al área de un círculo cualquiera, lleva implícito el cálculo del valor exacto de $\pi$.
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Aproximaciones geometricas a $\pi$}
+Una vez demostrado que era imposible la obtención de $\pi$ mediante el uso de regla y compás, se desarrollaron varios métodos aproximados. Dos de las soluciones aproximadas más elegantes son las debidas a Kochanski (usando regla y compás) y la de Mascheroni (empleando únicamente un compás).
+No siendo geométricas, también podemos calcular su aproximación mediante dos fórmulas:
+
+$\int_{0}^{1}\frac{4}{1+x^2}$
+
+$\frac{1}{n} \sum_{i=1}^{n} f(x_i)$ , con  $f(x) = \frac{4}{1+x^2} , x_i = \frac{i-\frac{1}{2}}{n}$, para $i=1,...,n$
+
+\end{frame}
+\subsection {Metodo de Kochaski}
+\begin{frame}
+\frametitle{Aproximaciones geometricas a $\pi$}
+\begin{block}{Metodo de Kochaski}
+Se dibuja una circunferencia de radio R. Se inscribe el triángulo equilátero OEG. Se traza una recta paralela al segmento EG que pase por A, prolongándola hasta que corte al segmento OE, obteniendo D. Desde el punto D y sobre ese segmento se transporta 3 veces el radio de la circunferencia y se obtiene el punto C. El segmento BC es aproximadamente la mitad de la longitud de la circunferencia. \cite{Wpress}
+\end{block}
+\end{frame}
+\subsection {Metodo de Mascheroni}
+\begin{frame}
+\frametitle{Aproximaciones geometricas a $\pi$}
+\begin{block}{Metodo de Mascheroni}
+Método desarrollado por Lorenzo Mascheroni: se dibuja una circunferencia de radio R y se inscribe un hexágono regular. El punto D es la intersección de dos arcos de circunferencia: BD con centro en A', y CD con centro en A. Obtenemos el punto E como intersección del arco DE, con centro en B, y la circunferencia. El segmento AE es un cuarto de la longitud de la circunferencia, aproximadamente. \cite{Wpress}
+\end{block}
+\end{frame}
+
+\section {Historia del calculo del valor $\pi$}
+\begin{frame}
+\frametitle{Historia del calculo del valor $\pi$}
+La búsqueda del mayor número de decimales del número $\pi$ ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia. Algunas aproximaciones históricas de $\pi$ son las siguientes \cite{Wiki}
+
+\end{frame}
+\subsection{Renacimiento europeo}
+\begin{frame}
+\frametitle{Historia del calculo del valor $\pi$}
+\begin{block}{Renacimiento europeo}
+A partir del siglo XII, con el uso de cifras arábigas en los cálculos, se facilitó mucho la posibilidad de obtener mejores cálculos para $\pi$. El matemático Fibonacci, en su Practica Geometriae, amplifica el método de Arquímedes, proporcionando un intervalo más estrecho. Algunos matemáticos del siglo XVII, como Viète, usaron polígonos de hasta 393.216 lados para aproximarse con buena precisión a 3,141592653. En 1593 el flamenco Adriaan van Roomen (Adrianus Romanus) obtiene una precisión de 16 dígitos decimales usando el método de Arquímedes.
+\end{block}
+\end{frame}
+\subsection{Matematica islamica}
+\begin{frame}
+\frametitle{Historia del calculo del valor $\pi$}
+\begin{block}{Matematica islamica}
+En el siglo IX Al-Jwarizmi, en su Álgebra (Hisab al yabr ua al muqabala), hace notar que el hombre práctico usa 22/7 como valor de $\pi$, el geómetra usa 3, y el astrónomo 3.1416. En el siglo XV, el matemático persa Ghiyath al-Kashi fue capaz de calcular el valor aproximado de $\pi$ con nueve dígitos, empleando una base numérica sexagesimal, lo que equivale a una aproximación de 16 dígitos decimales: $2\pi = 6.2831853071795865$.
+\end{block}
+\end{frame}
+
+\section{Bibliografía}
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}{99}
+
+
+\bibitem{Wiki}
+Wikipedia
+\bibitem{Wpress}
+Wordpress
+
+\end{thebibliography}
+\end{frame}
+
+\end{document}
